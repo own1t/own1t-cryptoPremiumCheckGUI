@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>973</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>931</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="rowCount">
+     <number>10</number>
+    </property>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>Ticker</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Upbit (KRW)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Upbit (USD)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Bithumb (KRW)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Bithumb (USD)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Binance (USD)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Binance (KRW)</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Upbit Premium</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Bithumb Premium</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>973</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
